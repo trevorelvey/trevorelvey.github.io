@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/custom-css.css" rel="stylesheet" type="text/css" media="all">
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+      <title>Trevor Elvey's Portfolio</title>
+    </head>
+
+    <body>
+<!-- Navbar -->
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-muted" href=#>Trevor Elvey's Portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://github.com/trevorelvey/vacation">Vacation Website</a></li>
+                  <li><a href="http://trevorelvey.github.io/animal-shelter/">Animal Shelter Website</a></li>
+                  <li><a href="https://github.com/trevorelvey/boringlectgure">Boring Lecture Website</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+<!-- End of Navbar -->
+
+<!-- Carousel -->
+      <div class="container">
+        <div id="myCarousel" class="carousel slide jumbotron">
+          <div class="container">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/Vacation Website Thumbnail.jpg">
+                <p class="lead">A vacation website using HTML, CSS, and Bootstrap</p>
+                <p>
+                  <a href="https://github.com/trevorelvey/vacation" class="btn btn-default center-block" role="button">View Website</a>
+                </p>
+              </div>
+              <div class="item">
+                <img src="images/Animal Shelter Thumbnail.jpg">
+                  <p class="lead">An animal shelter website using HTML and CSS.</p>
+                  <p>
+                    <a href="http://trevorelvey.github.io/animal-shelter/" class="btn btn-default center-block" role="button">View Website</a>
+                  </p>
+              </div>
+              <div class="item">
+                <img src="images/Boring Lecture Thumbnail.jpg">
+                <p class="lead">A lecture website using just HTML.</p>
+                <p>
+                  <a href="https://github.com/trevorelvey/boringlectgure" class="btn btn-default center-block" role="button">View Website</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
+      </div>
+<!-- End of Carousel -->
+
+<!-- Columns -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/12243066_10156255787395385_6714718268176899813_n.jpg" alt="Trevor Elvey" class="img-responsive img-rounded center-block" max-width="200">
+          </div>
+          <div class="col-sm-9">
+            <h3>About Me</h3>
+            <p>My name is <strong>Trevor Elvey</strong>, and I'm a student in the intro course at Epicodus. I have a BA in psychology, but for the last four years have been working for an architecture firm as a specifications and construction administration assistant (<em>very long title</em>). I've always had an interest in programming, and since I've been going through a number of life transitions, decided now would be a good time to make a transition out of the architecture industry and into tech.<br><br>Outside of work and class, I enjoy activities outdoors, including such as:</p>
+            <ol>
+              <li>Hiking and backpacking</li>
+              <li>Cycling</li>
+              <li>Kayaking</li>
+            </ol>
+            <p>I'm an avid reader, mostly modern lit but also some classics and non-fiction if they catch my interest. I also enjoy beer and beer festivals, watch lots of movies, and playing and watching soccer. <span class="portland">I'm pretty much a Portland cliche.</span><span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span></p>
+          </div>
+        </div>
+      </div>
+    </body>
+<!-- End of columns -->
+
+  </html>

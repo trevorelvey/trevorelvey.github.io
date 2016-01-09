@@ -1,0 +1,49 @@
+/* Body Attributes*/
+body {
+  background-color: #242424;
+  color: #a1a1a1;
+  padding-top:70px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Row Attributes*/
+.row {
+  border: 3px solid #107600;
+  padding: 50px;
+  margin: 20px;
+}
+
+.row p {
+  font-family: sans-serif;
+}
+
+.row h3 {
+  color: #107600;
+}
+
+.row ol li {
+  color: #107600;
+}
+
+/* Span Color*/
+.portland {
+  color: #107600;
+}
+
+/*Navbar Attributes*/
+.navbar-brand {
+  font-family: times;
+}
+
+/*Jumbotron Attributes for Carousel*/
+.jumbotron {
+  background-color: #242424;
+}
+
+/* Glypchicons*/
+.glyphicon {
+  font-size: 5em;
+  float: right;
+  padding: 20px;
+  color: #107600;
+}
